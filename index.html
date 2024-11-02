@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bookmarker project </title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+    <h1>Bookmarker</h1>
+    <hr>
+    <div class="input-div">
+        <h2>Bookmark your favorite sites</h2>    
+        <div class="name-input">
+            <label for="site-name">Site Name:</label>
+            <input  class="form-control" placeholder="Bookmark Name" type="text" id="site-name">
+            <div id="errorName" class="error  w-100   my-3">Name is required</div>
+        </div>
+        <div class="url-input">
+            <label for="site-url">Site URL:</label>
+            <input class="form-control" placeholder="website URL" type="text" id="site-url">
+            <div id="errorUrl" class="error w-100  my-3">Url Error</div>
+        </div>
+        <button  onclick="addDiv()" class="btn btn-primary">Submit</button>
+    </div>
+
+
+    <div id="content">
+
+    </div>
+
+
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
+

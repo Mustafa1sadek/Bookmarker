@@ -1,0 +1,80 @@
+
+h1
+{
+    color: #999;
+    margin: 30px   ;
+    font-weight: 700;
+}
+hr{
+    width: 75%;
+    margin: auto;
+}
+label
+{
+    display: block;
+}
+
+
+.input-div
+{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction:column;
+    align-items:center ;
+    padding:50px ;
+    background-color: #eee;
+    border-radius: 7px;
+}
+
+
+
+.name-input , .url-input
+{
+    width: 75%;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom:25px ;
+}
+
+
+#content div
+{
+    width: 80%;
+    background-image:linear-gradient( #eee , #fff);
+    margin: 10px auto;
+    display: flex;
+    padding: 15px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    
+
+}
+#content div h2
+{
+    margin: 10px 10%;
+}
+#content div div
+{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+#content div div button
+{
+margin: 0 10px;
+}
+
+.input-div .error
+{
+    color: #6d0000;
+    border-radius:5px ;
+    background-color: #ffb2b2;
+    border: 1px solid #6d0000;
+    padding: 2px;
+    font-weight: 600;
+    display: none;
+}
+
